@@ -168,7 +168,7 @@ never costs you anything.
 <details>
 <summary><b>Can I use this in a modpack?</b></summary>
 <br>
-Yes, as long as your modpack downloads LinguaCraft from this page or its official Modrinth / CurseForge pages,
+Yes, as long as your modpack downloads LinguaCraft from this page or its official CurseForge pages,
 and doesn't re-upload the jar itself.
 </details>
 
