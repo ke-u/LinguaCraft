@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/logo.png" alt="LinguaCraft" width="150">
+<img src="logo.png" alt="LinguaCraft" width="150">
 
 # LinguaCraft
 
@@ -17,7 +17,7 @@
 **[FAQ](#faq)** &nbsp;·&nbsp;
 **[Report a bug](https://github.com/ke-u/linguacraft/issues)**
 
-<img src="images/prompt.png" alt="A LinguaCraft prompt" width="640">
+<img src="prompt.png" alt="A LinguaCraft prompt" width="640">
 
 </div>
 
@@ -64,8 +64,8 @@ Pick as many as you like and switch between them whenever you want. Progress is 
 for each one.
 
 <div align="center">
-<img src="images/discoveries.png" alt="Discoveries" width="420">
-<img src="images/word-hunt.png" alt="Word hunt" width="420">
+<img src="discoveries.png" alt="Discoveries" width="420">
+<img src="word-hunt.png" alt="Word hunt" width="420">
 </div>
 
 ---
