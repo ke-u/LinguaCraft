@@ -124,8 +124,9 @@ All keys can be changed under *Options → Controls → Key Binds → LinguaCraf
 | | |
 |---|---|
 | **Singleplayer** | Fully supported. |
-| **Multiplayer** | Client-side only. Word hunts, crafting practice, Discoveries, awards and spoken words all work on any server. The "say it to keep it" pickup prompts are singleplayer only, so other players' items are never held up. |
+| **Multiplayer** | Not yet. LinguaCraft switches itself off on servers, so it's safe to keep installed, but it does nothing there. Multiplayer support is planned. |
 | **Servers** | Not needed on the server. |
+| **Your language** | Menus follow your game language: English, 中文, 日本語, Español and Deutsch so far. Item names always use Minecraft's own translations. |
 | **Other mods** | Items from other mods don't have translations to learn yet, so they're skipped. |
 
 ---
