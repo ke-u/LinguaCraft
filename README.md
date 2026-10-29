@@ -107,8 +107,9 @@ Japanese and Mandarin also teach you the characters, with kana and pinyin readin
    - `linguacraft-voices.jar` *(optional, recommended)*
 4. Launch the game, join a world and pick the languages you want to learn.
 
-The first time you use a language, its speech model downloads automatically (about 40 MB; Swedish and
-Ukrainian are larger).
+The first time you pick a language, LinguaCraft asks before downloading its speech model (31–50 MB for most
+languages; Ukrainian 133 MB, Swedish 289 MB) and shows where it comes from. Nothing downloads unless you click
+**Download**. Say no and you simply type your answers; you can download it later in *Settings → Speech models*.
 
 ---
 
@@ -168,7 +169,7 @@ never costs you anything.
 <details>
 <summary><b>Can I use this in a modpack?</b></summary>
 <br>
-Yes, as long as your modpack downloads LinguaCraft from this page or its official CurseForge pages,
+Yes, as long as your modpack downloads LinguaCraft from this page or its official Modrinth / CurseForge pages,
 and doesn't re-upload the jar itself.
 </details>
 
