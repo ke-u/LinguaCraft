@@ -63,6 +63,11 @@ it right, and how long your word hunts took. Sort and filter however you like.
 Pick as many as you like and switch between them whenever you want. Progress is kept separately
 for each one.
 
+**Your save, your way**
+Export your progress to a zip to back it up or move it to another computer, and upload it again later.
+Reset one language or everything, change the menu colours, and pick how often well-known words come up.
+The menus themselves follow your game language.
+
 <div align="center">
 <img src="discoveries.png" alt="Discoveries" width="420">
 <img src="word-hunt.png" alt="Word hunt" width="420">
