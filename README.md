@@ -155,13 +155,6 @@ All keys can be changed under *Options → Controls → Key Binds → LinguaCraf
 | **Your language** | Menus follow your game language, in all 17 languages the mod teaches (Simplified and Traditional Chinese too). Item names always use Minecraft's own translations. |
 | **Other mods** | Items from other mods don't have translations to learn yet, so they're skipped. |
 
----|---|
-| **Singleplayer** | Fully supported. |
-| **Multiplayer** | Not yet. LinguaCraft switches itself off on servers, so it's safe to keep installed, but it does nothing there. Multiplayer support is planned. |
-| **Servers** | Not needed on the server. |
-| **Your language** | Menus follow your game language, in all 17 languages the mod teaches (Simplified and Traditional Chinese too). Item names always use Minecraft's own translations. |
-| **Other mods** | Items from other mods don't have translations to learn yet, so they're skipped. |
-
 ---
 
 ## FAQ
