@@ -41,7 +41,17 @@ It's all done on your own computer. No account, no subscription, and your voice 
 
 **Say it to keep it**
 Pick up an item and a prompt asks for its name. Answer by voice or by typing. Words move through
-stages, from a full hint to no hint at all, and each one is tracked separately.
+stages, from a full hint to no hint at all, and each one is tracked separately. Typed answers work in
+the language's own script or in Latin letters: `木`, `き` or `ki`; `дерево` or `derevo`.
+
+**Kanji and their readings**
+Learning Japanese? Each word's kanji are shown in pink with the kana reading underneath, in prompts
+and on the word hunt tracker, so you learn how it's written as well as how it sounds.
+
+**Pick and test your microphone**
+Choose which mic LinguaCraft listens to in *Settings → Speech → Microphone*. A live level bar shows
+when you're being heard, and **Hear yourself** plays your mic back to you in real time. Nothing is
+recorded or saved.
 
 **Real pronunciation**
 Install the optional **LinguaCraft Voices** add-on and every block, item, mob and potion effect is
@@ -66,9 +76,9 @@ for each one.
 **Your save, your way**
 Export your progress to a zip to back it up or move it to another computer, and upload it again later.
 Reset one language or everything, change the menu colours, and pick how often well-known words come up.
-The menus themselves follow your game language.
+The menus themselves follow your game language. Nothing is ever downloaded without asking you first.
 
-<div align="center">
+<div align="left">
 <img src="discoveries.png" alt="Discoveries" width="420">
 <img src="word-hunt.png" alt="Word hunt" width="420">
 </div>
@@ -76,6 +86,8 @@ The menus themselves follow your game language.
 ---
 
 ## Languages
+
+
 
 | Language | | Language | | Language | |
 |---|---|---|---|---|---|
@@ -87,6 +99,10 @@ The menus themselves follow your game language.
 | English (UK) | | English (US) | | | |
 
 Japanese and Mandarin also teach you the characters, with kana and pinyin readings along the way.
+
+<div align="left">
+<img src="languages.png" alt="Picking your languages" width="520">
+</div>
 
 ---
 
@@ -129,6 +145,17 @@ All keys can be changed under *Options → Controls → Key Binds → LinguaCraf
 
 | | |
 |---|---|
+| **Windows** | Fully supported, including user names with accented or non-English letters (José, 山田...). |
+| **macOS** | Fully supported on Apple Silicon and Intel Macs. macOS asks for microphone permission the first time you speak. |
+| **Linux** | Supported. |
+| **Launchers** | Works with the Minecraft Launcher, Modrinth App, CurseForge app, Prism Launcher and other Fabric launchers. |
+| **Singleplayer** | Fully supported. |
+| **Multiplayer** | Not yet. LinguaCraft switches itself off on servers, so it's safe to keep installed, but it does nothing there. Multiplayer support is planned. |
+| **Servers** | Not needed on the server. |
+| **Your language** | Menus follow your game language, in all 17 languages the mod teaches (Simplified and Traditional Chinese too). Item names always use Minecraft's own translations. |
+| **Other mods** | Items from other mods don't have translations to learn yet, so they're skipped. |
+
+---|---|
 | **Singleplayer** | Fully supported. |
 | **Multiplayer** | Not yet. LinguaCraft switches itself off on servers, so it's safe to keep installed, but it does nothing there. Multiplayer support is planned. |
 | **Servers** | Not needed on the server. |
@@ -150,6 +177,35 @@ No. Speech recognition runs entirely on your own computer using Vosk. Nothing yo
 <br>
 Yes. If there's no microphone, prompts give you a box to type the answer instead. You can also turn on
 typing alongside speech in Settings.
+</details>
+
+<details>
+<summary><b>It can't hear me. What do I check?</b></summary>
+<br>
+Open <i>Settings → Speech → Microphone</i>. Pick the mic you actually talk into (a headset rather than a
+webcam, for example) and talk: the bar should go past the gold line. If it doesn't move at all, make sure
+your system lets Minecraft use the microphone (Windows: <i>Privacy &amp; security → Microphone</i>, including
+"Let desktop apps access your microphone"; macOS: <i>System Settings → Privacy &amp; Security → Microphone</i>).
+If a prompt says "Type it for now", read the orange line under it: it explains what's missing, usually a
+speech model that hasn't been downloaded yet.
+</details>
+
+<details>
+<summary><b>Where are the speech models stored?</b></summary>
+<br>
+In <code>.minecraft/config/linguacraft/models</code> (or your launcher's instance folder). If that path has
+letters the speech engine can't read, such as an accented Windows user name, they're kept in
+<code>C:\ProgramData\LinguaCraft\models</code> instead (<code>/Users/Shared/LinguaCraft/models</code> on a Mac),
+and the download screen tells you. You can delete them any time; LinguaCraft offers to download them again.
+</details>
+
+<details>
+<summary><b>Can I type in Japanese, Chinese or Russian?</b></summary>
+<br>
+Yes. Type in the language's own script with your system's keyboard for that language, or in Latin letters
+(romaji, pinyin with or without tones, or transliterated Cyrillic). Accents are optional for languages like
+Spanish or French. Tip: switch your keyboard back to English while playing, or its suggestion box pops up
+when you press keys.
 </details>
 
 <details>
@@ -178,6 +234,16 @@ and doesn't re-upload the jar itself.
 <br>
 Not right now. LinguaCraft is Fabric only.
 </details>
+
+---
+
+## Recent updates
+
+- **1.0.4:** speech works on Macs; older speech models (Turkish and others) are no longer mistaken for broken downloads; clearer messages when speech can't start.
+- **1.0.3:** fixed speech failing on PCs whose user name has accented or non-English letters.
+- **1.0.2:** microphone picker and live mic test; kanji with kana readings for Japanese; speech models are only downloaded after you agree.
+
+Full notes for every version are on the **[releases page](https://github.com/ke-u/linguacraft/releases)**.
 
 ---
 
