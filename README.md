@@ -230,11 +230,6 @@ Not right now. LinguaCraft is Fabric only.
 
 ---
 
-## Recent updates
-
-- **1.0.4:** speech works on Macs; older speech models (Turkish and others) are no longer mistaken for broken downloads; clearer messages when speech can't start.
-- **1.0.3:** fixed speech failing on PCs whose user name has accented or non-English letters.
-- **1.0.2:** microphone picker and live mic test; kanji with kana readings for Japanese; speech models are only downloaded after you agree.
 
 Full notes for every version are on the **[releases page](https://github.com/ke-u/linguacraft/releases)**.
 
