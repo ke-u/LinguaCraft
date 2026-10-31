@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo.png" alt="LinguaCraft" width="150">
+<img src="screenshots/logo.png" alt="LinguaCraft" width="150">
 
 # LinguaCraft
 
