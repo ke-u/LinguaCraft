@@ -40,88 +40,101 @@ It's all done on your own computer. No account, no subscription, and your voice 
 ## Features
 
 **Say it to keep it**
-Pick up an item and a prompt asks for its name. Answer by voice or by typing. Each word climbs the
-same levels in every language, New → Beginner → Intermediate → Advanced → Master, from a full hint to no
-hint at all (Japanese also shows the script you're on: Romaji, Kana, Kanji). Typed answers work in
-the language's own script or in Latin letters: `木`, `き` or `ki`; `дерево` or `derevo`.
-
-**Kanji and their readings**
-Learning Japanese? Each word's kanji are shown in pink with the kana reading underneath, in prompts
-and on the word hunt tracker, so you learn how it's written as well as how it sounds.
-
-**Pick and test your microphone**
-Choose which mic LinguaCraft listens to in *Settings → Speech → Microphone*. A live level bar shows
-when you're being heard, and **Hear yourself** plays your mic back to you in real time. Nothing is
-recorded or saved.
+Pick up an item and a prompt asks for its name. Answer by voice or by typing. Each word climbs the same levels in every language, New → Beginner → Intermediate → Advanced → Master, from a full hint to no hint at all, and its name in your inventory slowly turns into the language as it goes. Japanese also shows the script you're on: Romaji, Kana, Kanji.
 
 <div align="center">
-<img src="screenshots/mic.png" alt="Microphone settings" width="520">
+<img src="screenshots/stage.png" alt="A word's level in a prompt" width="560">
+</div>
+
+**Type it instead**
+No mic, or somewhere you can't talk? Type the answer. It works in the language's own script or in Latin letters: `木`, `き` or `ki`; `дерево` or `derevo`.
+
+<div align="center">
+<img src="screenshots/typing.png" alt="Typing an answer" width="560">
+</div>
+
+**Kanji and their readings**
+Learning Japanese? Words start in kana with romaji to help you read them, then the kanji take over. Each word's kanji are shown in pink with the kana reading underneath, in prompts and on the word hunt tracker, so you learn how it's written as well as how it sounds.
+
+<div align="center">
+<img src="screenshots/prompt1.png" alt="Kanji with the kana reading underneath" width="560">
+</div>
+
+**Pick and test your microphone**
+Choose which mic LinguaCraft listens to in *Settings → Speech → Microphone*. A live level bar shows when you're being heard, and **Hear yourself** plays your mic back to you in real time. Nothing is recorded or saved.
+
+<div align="center">
+<img src="screenshots/mic.png" alt="Microphone settings" width="560">
 </div>
 
 **Real pronunciation**
-Install the optional **LinguaCraft Voices** add-on and every block, item, mob and potion effect is
-spoken by a natural voice. Hear a word any time by clicking it in your Discoveries.
+Install the optional **LinguaCraft Voices** add-on and every block, item, mob and potion effect is spoken by a natural voice. **Hear it** replays the word during any prompt (3 times by default; 1, 3, 5, 10 or unlimited), and you can hear any word again by clicking it in your Discoveries. Set how loud words are with *Voice volume*. Speech models and voices are only downloaded after you say yes.
+
+<div align="center">
+<img src="screenshots/download.png" alt="Choosing what to download" width="560">
+</div>
 
 **Prompts at your pace**
-Set a prompt cooldown (1 to 30 minutes) in *Settings → Timing* and you're asked now and then through a
-session instead of about everything you mine. Pickups in between go straight into your inventory, and new
-words land in your Discoveries untested (0 right, 0 wrong) until a prompt asks you. Crafting has its own
-separate cooldown. **Hear it** replays the word during any prompt (3 times by default; 1, 3, 5, 10 or unlimited), then press Listen when you're ready to answer. Set how loud words are with *Voice volume*.
+Set a prompt cooldown (1 to 30 minutes) in *Settings → Timing* and you're asked now and then through a session instead of about everything you mine. Pickups in between go straight into your inventory, and new words land in your Discoveries untested (0 right, 0 wrong) until a prompt asks you. Crafting has its own separate cooldown.
+
+<div align="center">
+<img src="screenshots/cooldown.png" alt="Prompt and crafting cooldowns" width="560">
+</div>
 
 **Mob names**
-Hit a monster to hear its name, or right-click an animal, villager or iron golem. You never have to
-hit the cow.
+Hit a monster to hear its name, or right-click an animal, villager or iron golem. You never have to hit the cow.
 
 **Word hunts**
-Every so often you're given a word to go and find. You hear it, but you don't see what it means.
-The word plays louder and faster the closer you get, and hint icons tell you whether to mine it,
-chop it, farm it or fight for it. Things you can only craft become side quests.
+Every so often you're given a word to go and find. You hear it, but you don't see what it means. The word plays louder and faster the closer you get, and hint icons tell you whether to mine it, chop it, farm it or fight for it. Things you can only craft become side quests.
+
+<div align="center">
+<img src="screenshots/word-hunt.png" alt="Word hunt" width="560">
+</div>
 
 **Discoveries**
-Press **J** for a record of every word you've found: how well you know it, how many times you've got
-it right, and how long your word hunts took. Sort and filter however you like.
+Press **J** for a record of every word you've found: how well you know it, how many times you've got it right, and how long your word hunts took. Sort and filter however you like.
+
+<div align="center">
+<img src="screenshots/discoveries.png" alt="Discoveries" width="560">
+</div>
+
+17 languages Pick as many as you like and switch between them whenever you want. Progress is kept separately for each one.
+
+<div align="center">
+<img src="screenshots/languages.png" alt="Picking your languages" width="560">
+</div>
 
 **Awards**
 59 awards for speaking, streaks, word hunts, mastering words and learning more than one language.
 
 <div align="center">
-<img src="screenshots/achievements.png" alt="Awards" width="520">
+<img src="screenshots/achievements.png" alt="Awards" width="560">
 </div>
 
-**17 languages**
-Pick as many as you like and switch between them whenever you want. Progress is kept separately
-for each one.
-
 **Your save, your way**
-Export your progress to a zip to back it up or move it to another computer, and upload it again later.
-Reset one language or everything, change the menu colours, and pick how often well-known words come up.
-The menus themselves follow your game language. Nothing is ever downloaded without asking you first.
+Export your progress to a zip to back it up or move it to another computer, and upload it again later. Reset one language or everything, change the menu colours, and pick how often well-known words come up. The menus themselves follow your game language.
 
 <div align="center">
-<img src="screenshots/save.png" alt="Saving and moving your progress" width="520">
-<br><br>
-<img src="screenshots/discoveries.png" alt="Discoveries" width="420">
-<img src="screenshots/word-hunt.png" alt="Word hunt" width="420">
+<img src="screenshots/save.png" alt="Saving and moving your progress" width="560">
 </div>
 
 ---
 
 ## Languages
 
-<div align="center">
-<img src="screenshots/languages.png" alt="Picking your languages" width="520">
-</div>
+Pick as many as you like and switch between them whenever you want. Progress is kept separately for each one. Japanese and Mandarin also teach you the characters, with kana and pinyin readings along the way.
 
-| Language | | Language | | Language | |
-|---|---|---|---|---|---|
-| Japanese | 日本語 | Mandarin | 中文 | Spanish | Español |
-| French | Français | Italian | Italiano | Portuguese (Brazil) | Português |
-| German | Deutsch | Dutch | Nederlands | Polish | Polski |
-| Czech | Čeština | Swedish | Svenska | Turkish | Türkçe |
-| Ukrainian | Українська | Russian | Русский | Vietnamese | Tiếng Việt |
-| English (UK) | | English (US) | | | |
-
-Japanese and Mandarin also teach you the characters, with kana and pinyin readings along the way.
+| Language | Name | Language | Name |
+|---|---|---|---|
+| Japanese | 日本語 | Mandarin | 中文 |
+| Spanish | Español | French | Français |
+| Italian | Italiano | Portuguese (Brazil) | Português |
+| German | Deutsch | Dutch | Nederlands |
+| Polish | Polski | Czech | Čeština |
+| Swedish | Svenska | Turkish | Türkçe |
+| Ukrainian | Українська | Russian | Русский |
+| Vietnamese | Tiếng Việt | English (UK) | English |
+| English (US) | English | | |
 
 ---
 
