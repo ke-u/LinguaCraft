@@ -17,7 +17,7 @@
 **[FAQ](#faq)** &nbsp;·&nbsp;
 **[Report a bug](https://github.com/ke-u/linguacraft/issues)**
 
-<img src="prompt.png" alt="A LinguaCraft prompt" width="640">
+<img src="screenshots/prompt.png" alt="A LinguaCraft prompt" width="640">
 
 </div>
 
@@ -54,6 +54,10 @@ Choose which mic LinguaCraft listens to in *Settings → Speech → Microphone*.
 when you're being heard, and **Hear yourself** plays your mic back to you in real time. Nothing is
 recorded or saved.
 
+<div align="center">
+<img src="screenshots/mic.png" alt="Microphone settings" width="520">
+</div>
+
 **Real pronunciation**
 Install the optional **LinguaCraft Voices** add-on and every block, item, mob and potion effect is
 spoken by a natural voice. Hear a word any time by clicking it in your Discoveries.
@@ -80,6 +84,10 @@ it right, and how long your word hunts took. Sort and filter however you like.
 **Awards**
 59 awards for speaking, streaks, word hunts, mastering words and learning more than one language.
 
+<div align="center">
+<img src="screenshots/achievements.png" alt="Awards" width="520">
+</div>
+
 **17 languages**
 Pick as many as you like and switch between them whenever you want. Progress is kept separately
 for each one.
@@ -90,8 +98,10 @@ Reset one language or everything, change the menu colours, and pick how often we
 The menus themselves follow your game language. Nothing is ever downloaded without asking you first.
 
 <div align="center">
-<img src="discoveries.png" alt="Discoveries" width="420">
-<img src="word-hunt.png" alt="Word hunt" width="420">
+<img src="screenshots/save.png" alt="Saving and moving your progress" width="520">
+<br><br>
+<img src="screenshots/discoveries.png" alt="Discoveries" width="420">
+<img src="screenshots/word-hunt.png" alt="Word hunt" width="420">
 </div>
 
 ---
@@ -99,7 +109,7 @@ The menus themselves follow your game language. Nothing is ever downloaded witho
 ## Languages
 
 <div align="center">
-<img src="languages.png" alt="Picking your languages" width="520">
+<img src="screenshots/languages.png" alt="Picking your languages" width="520">
 </div>
 
 | Language | | Language | | Language | |
@@ -154,7 +164,7 @@ All keys can be changed under *Options → Controls → Key Binds → LinguaCraf
 
 ## Compatibility
 
-| Type | Description |
+| | |
 |---|---|
 | **Minecraft** | 1.20.1, 1.21 / 1.21.1 and 26.3, each with its own jar. Same features on all of them. |
 | **Windows** | Fully supported, including user names with accented or non-English letters (José, 山田...). |
@@ -166,8 +176,6 @@ All keys can be changed under *Options → Controls → Key Binds → LinguaCraf
 | **Servers** | Not needed on the server. |
 | **Your language** | Menus follow your game language, in all 17 languages the mod teaches (Simplified and Traditional Chinese too). Item names always use Minecraft's own translations. |
 | **Other mods** | Items from other mods don't have translations to learn yet, so they're skipped. |
-
-
 
 ---
 
