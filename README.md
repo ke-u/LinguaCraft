@@ -7,7 +7,7 @@
 ### Learn a language by playing Minecraft.
 
 [![Latest release](https://img.shields.io/github/v/release/ke-u/linguacraft?label=latest&style=flat-square&color=6a5acd)](https://github.com/ke-u/linguacraft/releases/latest)
-![Minecraft](https://img.shields.io/badge/minecraft-26.3-62b47a?style=flat-square)
+![Minecraft](https://img.shields.io/badge/minecraft-1.20.1%20%7C%201.21.1%20%7C%2026.3-62b47a?style=flat-square)
 ![Loader](https://img.shields.io/badge/loader-fabric-dbb69b?style=flat-square)
 ![Languages](https://img.shields.io/badge/languages-17-b0a8ff?style=flat-square)
 [![Ko-fi](https://img.shields.io/badge/support-ko--fi-ff5e5b?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/linguacraft)
@@ -40,8 +40,9 @@ It's all done on your own computer. No account, no subscription, and your voice 
 ## Features
 
 **Say it to keep it**
-Pick up an item and a prompt asks for its name. Answer by voice or by typing. Words move through
-stages, from a full hint to no hint at all, and each one is tracked separately. Typed answers work in
+Pick up an item and a prompt asks for its name. Answer by voice or by typing. Each word climbs the
+same levels in every language, New → Beginner → Intermediate → Advanced → Master, from a full hint to no
+hint at all (Japanese also shows the script you're on: Romaji, Kana, Kanji). Typed answers work in
 the language's own script or in Latin letters: `木`, `き` or `ki`; `дерево` or `derevo`.
 
 **Kanji and their readings**
@@ -56,6 +57,16 @@ recorded or saved.
 **Real pronunciation**
 Install the optional **LinguaCraft Voices** add-on and every block, item, mob and potion effect is
 spoken by a natural voice. Hear a word any time by clicking it in your Discoveries.
+
+**Prompts at your pace**
+Set a prompt cooldown (1 to 30 minutes) in *Settings → Timing* and you're asked now and then through a
+session instead of about everything you mine. Pickups in between go straight into your inventory, and new
+words land in your Discoveries untested (0 right, 0 wrong) until a prompt asks you. Crafting has its own
+separate cooldown. **Hear it** replays the word during any prompt (3 times by default; 1, 3, 5, 10 or unlimited), then press Listen when you're ready to answer. Set how loud words are with *Voice volume*.
+
+**Mob names**
+Hit a monster to hear its name, or right-click an animal, villager or iron golem. You never have to
+hit the cow.
 
 **Word hunts**
 Every so often you're given a word to go and find. You hear it, but you don't see what it means.
@@ -78,7 +89,7 @@ Export your progress to a zip to back it up or move it to another computer, and 
 Reset one language or everything, change the menu colours, and pick how often well-known words come up.
 The menus themselves follow your game language. Nothing is ever downloaded without asking you first.
 
-<div align="left">
+<div align="center">
 <img src="discoveries.png" alt="Discoveries" width="420">
 <img src="word-hunt.png" alt="Word hunt" width="420">
 </div>
@@ -87,7 +98,9 @@ The menus themselves follow your game language. Nothing is ever downloaded witho
 
 ## Languages
 
-
+<div align="center">
+<img src="languages.png" alt="Picking your languages" width="520">
+</div>
 
 | Language | | Language | | Language | |
 |---|---|---|---|---|---|
@@ -100,26 +113,23 @@ The menus themselves follow your game language. Nothing is ever downloaded witho
 
 Japanese and Mandarin also teach you the characters, with kana and pinyin readings along the way.
 
-<div align="left">
-<img src="languages.png" alt="Picking your languages" width="520">
-</div>
-
 ---
 
 ## Installation
 
 **Requirements**
-- Minecraft Java Edition **26.3**
+- Minecraft Java Edition **1.20.1**, **1.21 / 1.21.1** or **26.3**
 - [Fabric Loader](https://fabricmc.net/use/)
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - A microphone, if you want to answer by voice (typing works too)
 
 **Steps**
-1. Install Fabric Loader for 26.3.
-2. Download the latest files from the **[releases page](https://github.com/ke-u/linguacraft/releases/latest)**.
+1. Install Fabric Loader for your Minecraft version.
+2. Download the latest files from the **[releases page](https://github.com/ke-u/linguacraft/releases/latest)**:
+   the LinguaCraft jar ending in your Minecraft version (e.g. `linguacraft-1.1.0+1.21.1.jar`).
 3. Put these in your `.minecraft/mods` folder:
-   - `fabric-api-x.x.x.jar`
-   - `linguacraft-x.x.x.jar`
+   - `fabric-api-x.x.x.jar` (for your Minecraft version)
+   - `linguacraft-x.x.x+<your version>.jar`
    - `linguacraft-voices.jar` *(optional, recommended)*
 4. Launch the game, join a world and pick the languages you want to learn.
 
@@ -137,14 +147,16 @@ languages; Ukrainian 133 MB, Swedish 289 MB) and shows where it comes from. Noth
 | **H** | Word hunts |
 | **G** | Hear the current hunt's word again and show its hint |
 
+Press **J** or **H** again to close that menu, or the other key to swap straight across. Esc works too.
 All keys can be changed under *Options → Controls → Key Binds → LinguaCraft*.
 
 ---
 
 ## Compatibility
 
-| | |
+| Type | Description |
 |---|---|
+| **Minecraft** | 1.20.1, 1.21 / 1.21.1 and 26.3, each with its own jar. Same features on all of them. |
 | **Windows** | Fully supported, including user names with accented or non-English letters (José, 山田...). |
 | **macOS** | Fully supported on Apple Silicon and Intel Macs. macOS asks for microphone permission the first time you speak. |
 | **Linux** | Supported. |
@@ -154,6 +166,8 @@ All keys can be changed under *Options → Controls → Key Binds → LinguaCraf
 | **Servers** | Not needed on the server. |
 | **Your language** | Menus follow your game language, in all 17 languages the mod teaches (Simplified and Traditional Chinese too). Item names always use Minecraft's own translations. |
 | **Other mods** | Items from other mods don't have translations to learn yet, so they're skipped. |
+
+
 
 ---
 
@@ -227,11 +241,6 @@ and doesn't re-upload the jar itself.
 <br>
 Not right now. LinguaCraft is Fabric only.
 </details>
-
----
-
-
-Full notes for every version are on the **[releases page](https://github.com/ke-u/linguacraft/releases)**.
 
 ---
 
