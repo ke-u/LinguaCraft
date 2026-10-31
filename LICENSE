@@ -1,0 +1,16 @@
+LinguaCraft
+Copyright (c) 2026 keu. All rights reserved.
+
+This mod, its source code and its assets (including the LinguaCraft and LinguaCraft Voices
+logos, but not the LinguaCraft Voices audio, see below) may not be copied, modified, redistributed, re-uploaded or sold, in whole or in part,
+without written permission from the author.
+
+You may download LinguaCraft from its official pages (Modrinth and CurseForge) and use it to
+play Minecraft, including in modpacks that download it from those official pages.
+
+Third-party parts keep their own licences:
+- Vosk speech recognition (Apache License 2.0), and the Vosk speech models it downloads
+  (Apache License 2.0, from https://alphacephei.com/vosk/models)
+- Kuromoji (Apache License 2.0) and pinyin4j (BSD) for Japanese and Mandarin readings
+- LinguaCraft Voices (the audio add-on) is licensed separately under CC BY 4.0, so its audio
+  may be changed and shared with credit; see that add-on's NOTICE.txt and licenses folder
